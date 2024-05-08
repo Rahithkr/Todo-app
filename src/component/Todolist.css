@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background-color: #055565;
+    font-family: sans-serif;
+}
+
+.container{
+
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+
+ 
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+}
+.input-section{
+    background-color: #064250;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 6px #0000003b;
+
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #055565;
+    outline: none;
+  
+
+}
+ul{
+   
+    padding: 0px;
+    text-align: left;
+    overflow: auto;
+
+    
+
+
+}
+ul li{
+   list-style: none;
+   background-color: #055565;
+   padding: 20px;
+   border-radius: 12px;
+   margin-bottom: 10px;
+   color: gray;
+   box-shadow: 0 4px 6px  #00000066;
+   display: flex;
+   overflow: auto;
+   scrollbar-gutter:stable ;
+   
+   ; 
+  
+
+}
+ul li i{
+    text-align: right;
+    flex: 1px;
+  
+}
+.fa-trash {
+    margin-right: 1px;
+    cursor: pointer;
+  }
+  
+  .fa-pen-to-square {
+    margin-right: 1px;
+    cursor: pointer;
+  }
+  .unorder{
+    border-radius: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #055565;
+    outline: none;
+    height: 300px;
+    
+    
+  }
+h6{
+    text-align: right;
+    flex: 1px;
+}
+
+.input-edit input{
+    border-radius: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #1d7283;
+    outline: none;
+   
+}
+.input-edit li{
+    color: whitesmoke;
+
+}
+.checked label {
+    color: rgb(31, 236, 31);
+   
+  }
+  .checkbox{
+    height: 15px;
+    width: 15px;
+  margin-left: -230px;
+    
+
+  }
+  
